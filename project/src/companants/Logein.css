@@ -1,0 +1,106 @@
+section {
+    padding: 25px 2%;
+
+}
+
+
+#loginAndRegisterForm {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 10vh;
+    display: flex;
+    max-width: 90%;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+#loginForm {
+
+    text-align: left;
+    border: #2a2a2a 1px solid;
+    padding: 10rem;
+    padding-right: 12.5rem;
+    border-radius: 10px;
+
+
+}
+
+.container {
+    background-color: #fff;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formregisterForm {
+    text-align: left;
+    border: #2a2a2a 1px solid;
+    padding: 10rem;
+    padding-right: 12.5rem;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 115%;
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d2d2d2;
+    color: #2a2a2a;
+    transition: 1s;
+}
+
+#logoutButton {
+    background-color: black;
+    margin-top: 10px;
+    width: 20rem;
+}
+
+#logoutButton:hover {
+    background-color: rgb(214, 212, 212);
+    color: black;
+    transition: 1s;
+}
+
+.inValidMessage {
+    display: block;
+    display: none;
+    color: red;
+}
+
+@media (min-height: 80vh) and (max-height: 100vh) {
+    #loginAndRegisterForm {
+        height: auto;
+        width: auto;
+
+    }
+}
+
+
